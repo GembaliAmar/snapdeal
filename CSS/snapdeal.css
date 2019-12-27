@@ -1,0 +1,460 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background: #eee;
+}
+#headerSection{
+    background: #e40046;
+    height: 100px;
+}
+#headerSection .marginLeftAndRightSpace,
+.logoandcartSection>article ,#contentSection>article
+{
+    width: 90%;
+    margin: 0 auto;
+}
+.topMenu{
+    background: #c7003d !important;
+    position: relative;
+    z-index: 1;
+    color: #d8d8d8;
+    height: 30px;
+    line-height: 28px;
+    font-size: 12px;
+}
+.topMenu p{
+    margin: 0;
+}
+
+.rightUlMenu{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 50%;
+    float: right;
+    text-align: right;
+}
+
+.rightUlMenu li{
+    display: inline-block;
+}
+
+.rightUlMenu li a{
+    color: white;
+    text-decoration: none;
+    padding: 0 12px ;
+}
+
+.leftPara{
+    width: 50%;
+    float: left;
+}
+
+
+.logoandcartSection>article .logo{
+    width: 17%;
+    float: left;
+    position: relative;
+    top: 18px;
+}
+
+.logoandcartSection>article .search{
+    width: 63%;
+    float: left;
+    line-height: 70px;
+}
+
+.logoandcartSection>article .cart{
+    width: 20%;
+    float: right;
+    line-height: 70px;
+}
+
+#search{
+    width: 70% ;
+    background: white;
+    color: #909090;
+    padding: 0px 10px 0px 32px;
+    border: none;
+    border-radius: 2px;
+    font-size: 14px;
+    height: 35px
+
+}
+.searchText{
+    padding: 8px 30px;
+    background: #3f3f3f;
+    color: white;
+    border-radius: 0px 2px 2px 0px;
+    margin: 0px -5px;
+    position: relative;
+    top: 1px;
+}
+
+#insideDiv{
+    display: none;
+    position: absolute;
+}
+.rightNavigation{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.rightNavigation li{
+    display: inline-block;
+   
+}
+
+.rightNavigation li a{
+    padding: 15px;
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.itmNumber
+{
+    position: absolute;
+    top: 40px;
+    right: 236px;
+    text-align: center;
+    border-radius: 100px;
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    border: 1px solid #fff;
+    font-weight: 400;
+    color: black;
+    line-height: 15px;
+    font-size: 12px;
+}
+
+.fa-shopping-cart{
+    font-size: 24px;
+    /* margin-left: 3px; */
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+
+.nd{
+    background: url(../IMAGE/newHomePageIcons@1x.png);
+    background-position: -236px -199px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    font-size: 18px;
+    line-height: 32px; 
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    text-align: left;
+   
+}
+.Acc{
+    
+    background-position: -236px -199px;
+}
+.You{
+    background-position: -130px -199px;
+}
+.Sho{
+    background-position: -161px -199px;
+}
+.Sd{
+    background-position: -197px -199px;
+
+}
+
+
+.fa-user{
+    font-size: 15px;
+    margin-left: 15px;
+    border: 0px solid white;
+    border-radius: 100%;
+    padding: 13px;
+    background: #c7003d;
+    text-align: center;
+}
+.rightNavigation .dropdown ul li {
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+
+.rightNavigation .dropdown ul {
+    line-height: 30px;
+}
+.rightNavigation li:nth-child(2):hover{
+    background-color: #333;
+    position: absolute;
+}
+.rightNavigation li:nth-child(2):hover #insideDiv{
+    background: #333;
+    display: inline-block;
+    text-align: right;
+    width: 200px;
+    right: 0;
+    font-size: 13px;
+    width: 215px;
+    top: 62.6px;
+    z-index: 100;
+    position: absolute;
+    border-radius: 4px 0px 4px 4px;
+    background-color: #333;
+}
+
+/* .bottomText>p
+{
+    padding: 0px;
+    margin: 0px;
+} */
+.section>hr{
+    opacity: 0.5;
+}
+.bottomText>p:nth-child(1){
+    opacity: 0.5;
+}
+
+.bottomText>p:nth-child(3) {
+
+  border-radius: 4%;
+  border: 1px solid red;
+  background: red;
+    text-align: center;
+  padding: 4px 5px !important ;
+
+}
+
+.insideList li, .bottomText p {
+    display: block;
+    line-height: 35px;
+    padding-left:15px ;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 13px;
+    text-decoration: none;
+    border-radius: 0;
+    text-align: center;
+}
+.insideList li a {
+    padding: 0;
+
+}
+
+hr{
+    color: rgb(61, 61, 61);
+}
+.bottomText{
+    color: #eee;
+    font-size: 12px;
+    text-align: center;
+}
+/* #logIn{
+    background: #c6003d;
+    margin: 7%;
+    margin-top: none;
+    border: none;
+    border-radius: 2%; 
+} */
+
+
+/* contentSection css stsrt */
+#contentSection{
+    background: #eee;
+    /* height: 100vh; */
+
+}
+#contentSection>article{
+    margin-top: 40px ;
+    font-size: 12px;
+    font-weight: 100;
+
+}
+
+.contentLeft h5{
+    padding: 15px;
+    margin: 0;
+    font-size: 12px;
+    font-weight: 100;
+   
+}
+.contentLeft{
+    width: 18%;
+    float: left;
+    background: white;
+}
+.contentMiddle{
+    width: 59%;
+    float: left;
+    background: white;
+    margin: 0 2%;
+}
+.contentRight{
+    width: 19%;
+    float: right;
+    background: white;
+    
+}
+
+.btn{
+    margin: 5px;
+    padding: 8px 30px;
+    background: #333333;
+    color: white;
+    border-radius: 9px;
+    font-size: 13px;
+    margin-left: 10px;
+}
+.btn1{
+    border-radius: 9px;
+    height: 31px;
+    line-height: 16px;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    color: #999999;
+    font-size: 14px;
+    padding: 8px 11px;
+    margin: 4px;
+    text-align: center;
+}
+
+.menuList{
+    padding: 15px;
+    margin: 0;
+    list-style: none;
+    
+}
+.menuList li a{
+    color: #111;
+    text-decoration: none;
+    padding: 10px ;
+    display: inline-block;
+    width: 100%;
+   
+}
+
+.menuList li a:hover{
+    border-left: 3px solid red;
+    background: #eee;
+    transition: ease-in-out all 0.5s;
+}
+
+.allOfferIcons{
+    background: url(../IMAGE/Discount_Right_icon-f5105.png);
+    height: 30px;
+    width: 30px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-size:cover ;
+    vertical-align: -10px;
+   
+}
+.mobileAndTabletIcons{
+    background: url(../IMAGE/30x30mobile2.png);
+    height: 37px;
+    width: 37px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-size:cover ;
+    vertical-align: -10px;
+}
+.electronicsIcons{
+    background: url(../IMAGE/Electronic-6212c.png);
+    height: 37px;
+    width: 37px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-size:cover ;
+    vertical-align: -10px;
+}
+.computerAndGamingIcons{
+    background: url(../IMAGE/ComputerGaming-a02cf.png);
+    height: 37px;
+    width: 37px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-size:cover ;
+    vertical-align: -10px;
+}
+.homeAndKitchenIcons{
+    background: url(../IMAGE/Homekitchenfurnishing-3eda1.jpg);
+    height: 37px;
+    width: 37px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-size:cover ;
+    vertical-align: -10px;
+}
+
+/* .contentMiddle h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    text-align: center;
+    padding: 10px 64px;
+    text-shadow: 5px 2px 4px #c6003d;
+    /* transform: skew(-30deg, 10deg) 
+    
+} */ 
+/* .contentMiddle{
+    display: none;
+    float: none;
+} */
+/* #display{
+    clear: both;                                it is a block level element
+    background: yellow;
+    color: #111;
+    border: 1px solid #111;
+    padding: 10px;
+    /* display: none;                          it is hiding end user aswell as removing white space.
+                                                in this the tag will not appear at the page at all */
+    /* visibility: hidden;                     it hide user end but did not remove the space. 
+                                                here the space will be alocated*/
+    /* text-indent: -9999px;                   it move the text position && It is use to remove the text from visible area 
+                                                only negtive value is allowed*/
+
+    /* height:200px ; 
+    width: 200px;
+    overflow: scroll;                           /*to add scroll bar*/
+/* } */ 
+
+
+#ads{
+    clear: both;
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+#img{
+    display: block;
+    
+}
+
+.img1{
+    display: block;
+    width: 33%;
+    border-radius: 2px;
+   
+    float: left;
+}
+.img2{
+    display: block;
+    width: 33%;
+    border-radius: 2px;
+    float: left;
+}
+.img3{
+    display: block;
+    width: 33%;
+    border-radius: 2px;
+    float: left;
+}

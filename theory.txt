@@ -1,0 +1,30 @@
+box-Sadow
+    it is use to sadow the box;
+    if we wnt to make inside use inset;
+    box-sadow{horizontal vertical blerness size colour}
+    inset use before the parameters
+text-Sadow
+    it is use to sadow the box;
+    if we wnt to make inside use inset;
+    box-sadow{horizontal vertical blerness colour}
+    inset use before the parameters
+
+clear both     to remove flot of that block which is assign for previos element
+
+
+
+IMPOTANT
+
+differance bitween display none and visibility hiden and text-indent: -9999px;
+
+display none-
+it is hiding end user aswell as removing white space.
+
+visibility hiden-
+it hide user end but did not remove the space.
+
+text-indent-
+it move the text position && It is use to remove the text from visible area
+
+transform: skew(-25deg, 10deg);-
+use to give the text in slanted format
